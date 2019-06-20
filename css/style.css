@@ -1,0 +1,49 @@
+strong {
+    font-weight: bold;
+}
+
+a.brand-logo>img {
+    height: 64px;
+}
+
+main {
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    padding: 1rem;
+}
+
+div.title {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.server-ip {
+    cursor: pointer;
+}
+
+.server-status {
+    font-weight: bolder;
+}
+.server-status.up {
+    color: lightgreen;
+}
+.server-status.down {
+    color: orange;
+}
+.server-status.err {
+    color: red;
+}
+
+.register {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 800px) {
+    .nomobile {
+        display: none;
+    }
+}
